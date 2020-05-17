@@ -6,6 +6,31 @@ const person = {
     }
 };
 
+const copiedPerson = {...person };
+console.log(copiedPerson);
 
 person.greet();
 console.log(person.name);
+
+const hobbies = ['Sports', 'Cooking'];
+// for (let hobby of hobbies) {
+//     console.log(hobby);
+// }
+
+console.log(hobbies);
+console.log(hobbies.map(hobby => {
+    return 'Hobby: ' + hobby
+}));
+
+hobbies.push('programming');
+console.log(hobbies);
+
+// const copiedArray = hobbies.slice();
+const copiedArray = [...hobbies];
+console.log(copiedArray);
+
+const toArray = (...args) => {
+    return args;
+};
+
+console.log(toArray(1, 2, 3, 4));

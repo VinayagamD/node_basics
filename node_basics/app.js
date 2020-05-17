@@ -26,26 +26,29 @@ const server = http.createServer((req, res) => {
         req.on('end', () => {
             const parsedBody = Buffer.concat(body).toString();
             const message = parsedBody.split('=')[1];
-            fs.writeFileSync('message.txt', message);
+            fs.writeFile('message.txt', message, err => {
+                res.statusCode = 302;
+                res.setHeader('Location', '/');
+                return res.end();
+            });
+
         });
 
-        req.statusCode = 302;
-        res.setHeader('Location', '/');
+
+    } else {
+        res.setHeader('Content-Type', 'text/html');
+        res.write('<html>');
+        res.write('<head>');
+        res.write('<title>');
+        res.write('My First Page');
+        res.write('</title>');
+        res.write('</head>');
+        res.write('<body>');
+        res.write('<h1> This is my first html page server</h1>');
+        res.write('</body>');
+        res.write('</html>');
         return res.end();
     }
-    res.setHeader('Content-Type', 'text/html');
-    res.write('<html>');
-    res.write('<head>');
-    res.write('<title>');
-    res.write('My First Page');
-    res.write('</title>');
-    res.write('</head>');
-    res.write('<body>');
-    res.write('<h1> This is my first html page server</h1>');
-    res.write('</body>');
-    res.write('</html>');
-    return res.end();
-
 });
 
 server.listen(3000);

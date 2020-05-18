@@ -1,0 +1,13 @@
+{
+    "configurations": [
+    {
+        "type": "node",
+        "request": "launch",
+        "name": "nodemon",
+        "program": "${workspaceFolder}/app.js",
+        "restart": true,
+        "runtimeExecutable": "nodemon",
+        "console": "integratedTerminal"
+    }
+    ]
+}

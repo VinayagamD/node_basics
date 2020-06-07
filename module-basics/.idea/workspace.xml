@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6c6513bc-d6a8-4417-85eb-25ca655d9a20" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../assigments/assignment3-test/.idea/assignment3-test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assigments/assignment3-test/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assigments/assignment3-test/routes/home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assigments/assignment3-test/utils/path.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assigments/assignment3-test/views/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assigments/assignment3/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assigments/assignment3/.idea/assignment3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assigments/assignment3/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assigments/assignment3/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assigments/assignment3/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../assigments/assignment3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../express-js-tut/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../express-js-tut/.idea/express-js-tut.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../express-js-tut/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../express-js-tut/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../express-js-tut/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assigments/assignment2/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../assigments/assignment2/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../express-js-tut/routes/shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/../express-js-tut/routes/shop.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1cypCEDjpICcPilNT5fa6t4WG4u" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6c6513bc-d6a8-4417-85eb-25ca655d9a20" name="Default Changelist" comment="" />
+      <created>1591510557694</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591510557694</updated>
+      <workItem from="1591510558792" duration="14000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+</project>

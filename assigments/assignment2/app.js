@@ -8,7 +8,7 @@ app.use("/", (req, res, next) => {
 });
 
 app.use("/users", (req, res, next) => {
-    res.send(`
+   return  res.send(`
         <ul>
         <li>user1</li>
         <li>user2</li>

@@ -1,6 +1,8 @@
 const Student = require('../app/student');
 const assert = require('assert');
 
+// All Delete Test
+
 describe("Delete Tests", () => {
     let deleter;
     beforeEach((done) => {
